@@ -2,7 +2,7 @@ import { Message } from "@/app/types/message";
 import BotAvatar from "./BotAvatar";
 import { roboto } from "@/app/ui/fonts";
 import Skeleton from "./Skeleton";
-import TypewriterHTML from "./TypeWriterHTML"; // file name
+import TypeWritter from "./TypeWritter";
 
 type MessageBubbleProps = {
   message: Message;
@@ -32,7 +32,7 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ message }) => {
             {isBot && <BotAvatar />}
             <div className="overflow-hidden break-words">
               {isBot ? (
-                <TypewriterHTML html={message.text} speed={20} />
+                <TypeWritter html={message.text} speed={20} />
 
               ) : (
                 <p className="whitespace-pre-wrap break-words overflow-wrap-anywhere">{message.text}</p>
