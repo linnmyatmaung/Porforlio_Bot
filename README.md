@@ -2,6 +2,10 @@
 
 **Mindy Wunna** means "What is inside my mind." This is the front-end repository for the project, built using **Next.js**. State management is handled by **lifting state up**.
 
+## Project Overview
+
+- Mindy Wunna provides a conversational experience through a minimalist chat UI. When a user sends a message, it is transmitted to a backend API deployed on AWS Lambda, which processes the input and returns a relevant response. This project showcases seamless integration between a modern front-end (Next.js) and serverless backend.
+
 ## Features
 
 - 💬 Ask anything about me (e.g., skills, projects, hobbies, personality).
