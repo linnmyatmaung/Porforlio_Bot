@@ -2,7 +2,7 @@ import { Message } from "@/app/types/message";
 import BotAvatar from "./BotAvatar";
 import { roboto } from "@/app/ui/fonts";
 import Skeleton from "./Skeleton";
-import TypewriterHTML from "./TypeWriterHTML";
+import TypewriterHTML from "./TypeWriterHTML"; // file name
 
 type MessageBubbleProps = {
   message: Message;
