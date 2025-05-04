@@ -61,7 +61,7 @@ const ChatRecommendation: React.FC<CardProps> = ({ onClick }) => {
                         className="bg-white/10 backdrop-blur-md rounded-lg p-4 mb-2 cursor-pointer font-[500] hover:bg-white/20 transition-all duration-300"
                         onClick={() => onClick(prompt.text)}
                     >
-                        <p className="text-sm text-center">{prompt.text}</p>
+                        <p className="text-sm text-center text-white">{prompt.text}</p>
                     </div>
                 ))}
             </div>
