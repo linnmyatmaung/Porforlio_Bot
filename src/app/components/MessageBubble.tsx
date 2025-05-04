@@ -28,7 +28,7 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ message }) => {
         {message.loading && isBot ? (
           <Skeleton />
         ) : (
-          <div className="flex space-x-2 items-start w-full overflow-hidden">
+          <div className="flex flex-col md:flex-row space-x-2 items-start w-full overflow-hidden">
             {isBot && <BotAvatar />}
             <div className="overflow-hidden break-words">
               {isBot ? (
