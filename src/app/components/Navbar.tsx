@@ -21,7 +21,7 @@ const Navbar = () => {
                     </span>
                 </div>
                 <button className='cursor-pointer hover:opacity-80 transition-opacity duration-200'>
-                    <Link href={"#"}>
+                    <Link href="https://github.com/wunnaaung-dev/Mindy_Wunna-.git" target="_blank">
                         <Image
                             src={github}
                             alt="Logo"
