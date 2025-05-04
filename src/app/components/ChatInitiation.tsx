@@ -3,7 +3,7 @@ import BotAvatar from "@/app/components/BotAvatar"
 
 const ChatInitiation = () => {
   return (
-    <div className="text-center mb-2">
+    <div className="text-center mb-2 text-white">
         <div className="flex justify-center mb-3">
             <BotAvatar width="w-15" height="h-15"/>
         </div>
