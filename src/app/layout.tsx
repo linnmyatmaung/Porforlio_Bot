@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mindy Wunna",
-  description: "Doppleganger of Wunna",
+  title: "Porforlio Bot",
+  description: "porforlio-bot",
 };
 
 export default function RootLayout({

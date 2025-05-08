@@ -1,34 +1,46 @@
-# Mindy Wunna
+# [Porforlio_Bot]
 
-**Mindy Wunna** means "What is inside my mind." This is the front-end repository for the project, built using **Next.js**. State management is handled by **lifting state up**.
+[Porforlio_Bot] is inspired by the original project Mindy Wunna (created by wunnaaung-dev).  
+This is my personal adaptation, built with **Next.js** and simple state management through lifting state up.
 
 ## Project Overview
 
-- Mindy Wunna provides a conversational experience through a minimalist chat UI. When a user sends a message, it is transmitted to a backend API deployed on AWS Lambda, which processes the input and returns a relevant response. This project showcases seamless integration between a modern front-end (Next.js) and serverless backend.
+[Porforlio_Bot] offers a minimalist chat interface designed for conversational interactions.  
+Messages sent by users are processed by a backend API (https://linnmyatmaung-chatbot.onrender.com/chat) which generates appropriate responses.  
+This project highlights seamless communication between a modern frontend (**Next.js**) and an express server backend.
 
 ## Features
 
-- 💬 Ask anything about me (e.g., skills, projects, hobbies, personality).
+- 💬 Ask me about my skills, experiences, hobbies, or anything else.
+- ✨ Clean and responsive chat UI.
+- 🚀 Fast serverless backend integration.
 
 ## Getting Started
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/wunnaaung-dev/Mindy_Wunna-.git
-    ```
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-3. Run the development server:
-    ```bash
-    npm run dev
-    ```
+To run the project locally:
+
+```bash
+# Clone this repository
+git clone [https://github.com/linnmyatmaung/Porforlio_Bot.git]
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
 
 ## Technologies Used
 
-- **Next.js**: Framework for building the front-end.
-- **State Management**: Lifting state up for simplicity.
+- **Next.js** — React-based framework for front-end development.
+- **State Management** — Simple lifting state up approach for managing conversation flow.
+- **Serverless Functions** — AWS Lambda for backend logic.
+
+## Acknowledgements
+
+This project was heavily inspired by **Mindy Wunna**.  
+Special thanks to **wunnaaung-dev** for the original idea and structure.
 
 ## 🙌 Contribution
-This is a personal project, but feel free to fork or give feedback!
+
+This is a personal adaptation. Feel free to fork, suggest improvements, or provide feedback!

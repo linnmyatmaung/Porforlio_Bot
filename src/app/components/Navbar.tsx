@@ -17,11 +17,11 @@ const Navbar = () => {
                         className="rounded-full"
                     />
                     <span className={`${fredoka.className} font-semibold text-white text-lg`}>
-                        Mindy Wunna!
+                        Porforlio Bot
                     </span>
                 </div>
                 <button className='cursor-pointer hover:opacity-80 transition-opacity duration-200'>
-                    <Link href="https://github.com/wunnaaung-dev/Mindy_Wunna-.git" target="_blank">
+                    <Link href="https://github.com/linnmyatmaung/Porforlio_Bot.git" target="_blank">
                         <Image
                             src={github}
                             alt="Logo"
